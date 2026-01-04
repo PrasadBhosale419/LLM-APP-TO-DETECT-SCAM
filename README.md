@@ -5,18 +5,24 @@ LLM Used: Flash-Lite
 
 Steps to use the repository:
 
-#Folder Structure scam_guard-ai/ 
-experiments 
- └─ experiment_1.ipynb 
-llm
- └─ prompts/ 
-pipeline
- └─ scam_detection.py 
-streamlit 
- └─ app.py 
-main.py 
-utils 
- └─ helpers.py 
-config.py 
-requirements.txt 
-README.txt
+scam_guard-ai/
+│
+├── experiments/
+│   └── experiment_1.ipynb
+│
+├── llm/
+│   └── prompts/
+│
+├── pipeline/
+│   └── scam_detection.py
+│
+├── streamlit/
+│   └── app.py
+│
+├── utils/
+│   ├── helpers.py
+│   └── config.py
+│
+├── main.py
+├── requirements.txt
+└── README.txt
